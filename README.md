@@ -1,24 +1,41 @@
-# README
+# 🧾 Billing System
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A full-stack billing system built using Ruby on Rails and React. This application allows you to manage products, generate bills dynamically with tax and denomination breakdowns, and send invoices to customers via email.
 
-Things you may want to cover:
+---
 
-* Ruby version
+## 🛠 Tech Stack
 
-* System dependencies
+### Backend:
+- **Ruby on Rails 8**
+- **SQLite** (development)
+- **ActiveMailer** for email
+- **Delayed Job** for background processing
 
-* Configuration
+### Frontend:
+- **React (Functional Components & Hooks)** via Webpacker
+- **Bootstrap** or minimal custom CSS
 
-* Database creation
+### Others:
+- **Foreman** for running Rails and Webpack together in development
+- **Webpacker** for React integration
 
-* Database initialization
 
-* How to run the test suite
+Demo Video: 
 
-* Services (job queues, cache servers, search engines, etc.)
+---
 
-* Deployment instructions
+## 🚀 Steps to Run the Application
 
-* ...
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/sanjaydotrb/billing_system.git
+cd billing_system
+gem install bundler
+bundle install
+yarn install
+rails db:create
+rails db:migrate
+rails db:seed
+foreman start -f Procfile.dev
