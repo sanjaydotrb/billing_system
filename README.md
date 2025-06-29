@@ -21,7 +21,7 @@ A full-stack billing system built using Ruby on Rails and React. This applicatio
 - **Webpacker** for React integration
 
 
-Demo Video: 
+Demo Video: https://www.loom.com/share/29b68b604d7a42329c44e70ac70f3f79?sid=df21da1e-12f5-4d2e-8bf2-a9b5c50f8794
 
 ---
 
