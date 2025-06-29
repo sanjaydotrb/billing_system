@@ -1,0 +1,13 @@
+{
+  "name": "billing_system",
+  "private": true,
+  "dependencies": {
+    "esbuild": "^0.25.5",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "scripts": {
+    "build": "esbuild app/javascript/*.* --bundle --sourcemap --format=esm --outdir=app/assets/builds --loader:.js=jsx",
+    "build:watch": "yarn build --watch"
+  }
+}
